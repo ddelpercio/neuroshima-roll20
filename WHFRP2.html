@@ -1,16 +1,19 @@
+<head>
+  <link rel="stylesheet" href="WHFRP2.css">
+</head>
 <div class="sheet-overall-wrapper">
-  <span class="sheet-last-updated">Sheet version: 2017 June 11th</span>
+  <span class="sheet-last-updated">Sheet version: 2018 May 5th</span>
   
   <div class="sheet-core-header sheet-pad-b-md">
     <div class="sheet-row">
       <div class="sheet-col-3-10">
         <div class="sheet-dnd-image-wrapper sheet-mar-t-sm sheet-mar-b-sm">
-          <img src="http://s8.postimg.org/at5it291h/WFRP_logo.png" height="120" width="240" alt="Warhammer Fantasy Roleplay (2nd edition)">
+          <img src="logo.PNG" height="120" width="240" alt="Warhammer Fantasy Roleplay (2nd edition)">
         </div>
         <div>
           <input class="sheet-character-name" type="text" name="attr_character_name"/>
           <div class="sheet-wrap-box-label sheet-pc-version">
-            <span data-i18n="character-name">Character Name</span>
+            <span data-i18n="character-name">Imię</span>
           </div>
         </div>
       </div>
@@ -21,14 +24,14 @@
               <div class="sheet-pc-version">
                 <input type="text" name="attr_career"/>
                 <div class="sheet-wrap-box-label">
-                  <span data-i18n="career">Career</span>
+                  <span data-i18n="profesja">Profesja</span>
                 </div>
               </div>
             </div>
             <div class="sheet-col-1-6 sheet-pad-r-sm">
               <input type="text" name="attr_career_path"/>
               <div class="sheet-wrap-box-label">
-                <span data-i18n="career-path">Career Path</span>
+                <span data-i18n="cecha-profesja">Cecha profesji</span>
               </div>
             </div>
           </div>
@@ -36,25 +39,25 @@
             <div class="sheet-col-3-20 sheet-pad-r-sm">
               <input type="text" name="attr_race"/>
               <div class="sheet-wrap-box-label">
-                <span data-i18n="race">Race</span>
+                <span data-i18n="pochodzenie">Pochodzenie</span>
               </div>
             </div>
             <div class="sheet-col-19 sheet-vert-middle sheet-relative sheet-pad-r-sm">
               <input type="text" name="attr_religion"/>
               <div class="sheet-wrap-box-label">
-                <span data-i18n="religion">Religion</span>
+                <span data-i18n="cecha-pochodzenie">Cecha pochodzenia</span>
               </div>
             </div>
             <div class="sheet-col-9-22 sheet-vert-middle sheet-pad-r-sm">
               <input type="text" name="attr_concept"/>
               <div class="sheet-wrap-box-label">
-                <span data-i18n="concept">Concept</span>
+                <span data-i18n="choroba">Choroba</span>
               </div>
             </div>
             <div class="sheet-col-1-8 sheet-pad-r-sm">
-              <input class="sheet-center" type="number" name="attr_advancements" min="0" step="1"/>
+              <input class="sheet-center" type="text" name="attr_advancements" />
               <div class="sheet-wrap-box-label sheet-center">
-                <span data-i18n="advancements">Advancements</span>
+                <span data-i18n="specjalizacja">Specjalizacja</span>
               </div>
             </div>
             <div class="sheet-col-1-8 sheet-pad-r-sm">
@@ -115,18 +118,18 @@
         
         <div class="sheet-col-1 sheet-sub-header">
           <div class="sheet-col-13 sheet-small-label sheet-vert-middle sheet-pad-r-sm"><span data-i18n="main">Main</span></div>
-          <div class="sheet-col-1-10 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm"><span data-i18n="abbreviate-weapon-skill">WS</span></div>
-          <div class="sheet-col-1-10 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm"><span data-i18n="abbreviate-ballistic-skill">BS</span></div>
-          <div class="sheet-col-1-10 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm"><span data-i18n="abbreviate-strength">S</span></div>
-          <div class="sheet-col-1-10 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm"><span data-i18n="abbreviate-toughness">T</span></div>
-          <div class="sheet-col-1-10 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm"><span data-i18n="abbreviate-agility">Ag</span></div>
-          <div class="sheet-col-1-10 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm"><span data-i18n="abbreviate-intelligence">Int</span></div>
-          <div class="sheet-col-1-10 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm"><span data-i18n="abbreviate-will-power">WP</span></div>
-          <div class="sheet-col-1-10 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm"><span data-i18n="abbreviate-fellowship">Fel</span></div>
+          <div class="sheet-col-1-10 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm"><span data-i18n="abbreviate-zrecznosc">Zr</span></div>
+          <div class="sheet-col-1-10 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm"><span data-i18n="abbreviate-percepcja">Pc</span></div>
+          <div class="sheet-col-1-10 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm"><span data-i18n="abbreviate-charakter">Ch</span></div>
+          <div class="sheet-col-1-10 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm"><span data-i18n="abbreviate-spryt">Sp</span></div>
+          <div class="sheet-col-1-10 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm"><span data-i18n="abbreviate-budowa">Bd</span></div>
+          <div class="sheet-col-1-10 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm"><span data-i18n="abbreviate-intelligence"></span></div>
+          <div class="sheet-col-1-10 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm"><span data-i18n="abbreviate-will-power"></span></div>
+          <div class="sheet-col-1-10 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm"><span data-i18n="abbreviate-fellowship"></span></div>
         </div>
         
         <div class="sheet-col-13 sheet-pad-t-xsm sheet-pad-r-sm">
-          <span data-i18n="starting">Starting</span>
+          <span data-i18n="starting">Łatwy</span>
         </div>
         <div class="sheet-col-1-10 sheet-center sheet-pad-r-sm">
           <input class="sheet-center" type="number" name="attr_WeaponSkillStart" value="0" min="0" step="1"/>
@@ -154,7 +157,7 @@
         </div>
         
         <div class="sheet-col-13 sheet-pad-t-xsm sheet-pad-r-sm">
-          <span data-i18n="talents">Talents</span>
+          <span data-i18n="talents">Przecietny</span>
         </div>
         <div class="sheet-col-1-10 sheet-center sheet-pad-r-sm">
           <input class="sheet-center" type="number" name="attr_WeaponSkillTalents" value="0" min="0" step="1"/>
@@ -182,7 +185,7 @@
         </div>
         
         <div class="sheet-col-13 sheet-pad-t-xsm sheet-pad-r-sm">
-          <span data-i18n="career">Career</span>
+          <span data-i18n="career">Problematyczny</span>
         </div>
         <div class="sheet-col-1-10 sheet-center sheet-pad-r-sm">
           <input class="sheet-center" type="number" name="attr_WeaponSkillCareer" value="@{WeaponSkillAdvCareerD}" disabled="disabled"/>
@@ -210,7 +213,7 @@
         </div>
         
         <div class="sheet-col-13 sheet-pad-t-xsm sheet-pad-r-sm">
-          <span data-i18n="advance">Advance</span>
+          <span data-i18n="advance">Trudny</span>
         </div>
         <div class="sheet-col-1-10 sheet-center sheet-pad-r-sm">
           <input class="sheet-center" type="number" name="attr_WeaponSkillAdv" value="0" min="0" step="1"/>
@@ -238,7 +241,7 @@
         </div>
         
         <div class="sheet-col-13 sheet-pad-t-xsm sheet-pad-r-sm">
-          <span data-i18n="current">Current</span>
+          <span data-i18n="current">Bardzo trudny</span>
         </div>
         <div class="sheet-col-1-10 sheet-center sheet-pad-r-sm">
           <input class="sheet-center" type="number" name="attr_WeaponSkill" value="@{WeaponSkillStart}+@{WeaponSkillTalents}+@{WeaponSkillAdv}" disabled="disabled"/>
@@ -269,29 +272,21 @@
         
         <div class="sheet-col-11 sheet-pad-t-xsm sheet-pad-r-sm"></div>
         <button type="roll" class="sheet-roll" name="roll_Weapon_Skill" value="&{template:whfrp2e} {{title=^{weapon-skill}}} {{character_name=@{character_name}}} {{target=[[@{WeaponSkill}+?{Modifier|0}]]}} {{chartest=[[1d100]]}} {{degree={target-]]}}">
-          <span data-i18n="abbreviate-weapon-skill">WS</span>
+          <span data-i18n="abbreviate-weapon-skill">Zr</span>
         </button>
         <button type="roll" class="sheet-roll" name="roll_Ballistic_Skill" value="&{template:whfrp2e} {{title=^{ballistic-skill}}} {{character_name=@{character_name}}} {{target=[[@{BallisticSkill}+?{Modifier|0}]]}} {{chartest=[[1d100]]}}">
-          <span data-i18n="abbreviate-ballistic-skill">BS</span>
+          <span data-i18n="abbreviate-ballistic-skill">Pc</span>
         </button>
         <button type="roll" class="sheet-roll" name="roll_Strength" value="&{template:whfrp2e} {{title=^{strength}}} {{character_name=@{character_name}}} {{target=[[@{Strength}+?{Modifier|0}]]}} {{chartest=[[1d100]]}}">
-          <span data-i18n="abbreviate-strength">S</span>
+          <span data-i18n="abbreviate-strength">Ch</span>
         </button>&nbsp;&nbsp;
         <button type="roll" class="sheet-roll" name="roll_Toughness" value="&{template:whfrp2e} {{title=^{toughness}}} {{character_name=@{character_name}}} {{target=[[@{Toughness}+?{Modifier|0}]]}} {{chartest=[[1d100]]}}">
-          <span data-i18n="abbreviate-toughness">T</span>
+          <span data-i18n="abbreviate-toughness">Sp</span>
         </button>&nbsp;
         <button type="roll" class="sheet-roll" name="roll_Agility" value="&{template:whfrp2e} {{title=^{agility}}} {{character_name=@{character_name}}} {{target=[[@{Agility}-@{armortestpenalty}+?{Modifier|0}]]}} {{chartest=[[1d100]]}}">
-          <span data-i18n="abbreviate-agility">Ag</span>
+          <span data-i18n="abbreviate-agility">Bd</span>
         </button>
-        <button type="roll" class="sheet-roll" name="roll_Intelligence" value="&{template:whfrp2e} {{title=^{intelligence}}} {{character_name=@{character_name}}} {{target=[[@{Intelligence}+?{Modifier|0}]]}} {{chartest=[[1d100]]}}">
-          <span data-i18n="abbreviate-intelligence">Int</span>
-        </button>
-        <button type="roll" class="sheet-roll" name="roll_Will_Power" value="&{template:whfrp2e} {{title=^{will-power}}}{{character_name=@{character_name}}}  {{target=[[@{WillPower}+?{Modifier|0}]]}} {{chartest=[[1d100]]}}">
-          <span data-i18n="abbreviate-will-power">WP</span>
-        </button>
-        <button type="roll" class="sheet-roll" name="roll_Fellowship" value="&{template:whfrp2e} {{title=^{fellowship}}} {{character_name=@{character_name}}} {{target=[[@{Fellowship}+?{Modifier|0}]]}} {{chartest=[[1d100]]}}">
-          <span data-i18n="abbreviate-fellowship">Fel</span>
-        </button>
+
         
         <div class="sheet-col-1"><br/></div>
         
