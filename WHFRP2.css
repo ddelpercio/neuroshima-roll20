@@ -2268,6 +2268,17 @@ select {
   margin-left: 80%;
 }
 
+.sheet-col-1-6th,
+.sheet-rolltemplate-whfrp2e .sheet-col-1-6th {
+  width: 16.0%;
+}
+.sheet-offset-1-6th,
+.sheet-rolltemplate-whfrp2e .sheet-offset-1-6th {
+  margin-left: 16.0%;
+}
+
+
+
 .sheet-col-1-6,
 .sheet-rolltemplate-whfrp2e .sheet-col-1-6 {
   width: 79.82456%;
